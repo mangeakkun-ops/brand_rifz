@@ -5,6 +5,8 @@ import Hero from './components/Hero';
 import ProductSection from './components/ProductSection';
 import ChatBot from './components/ChatBot';
 import Footer from './components/Footer';
+import VisionMission from './components/VisionMission';
+import Testimonials from './components/Testimonials';
 
 const App: React.FC = () => {
   return (
@@ -14,8 +16,10 @@ const App: React.FC = () => {
       <main>
         <Hero />
         
+        <VisionMission />
+
         {/* Philosophy Section */}
-        <section id="philosophy" className="py-32 px-6 border-y border-white/5 bg-zinc-950/30">
+        <section id="philosophy" className="py-32 px-6 border-y border-white/5 bg-black">
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
               <span className="text-xs font-bold tracking-[0.5em] text-zinc-500 uppercase">Architecture of Style</span>
@@ -48,6 +52,8 @@ const App: React.FC = () => {
         </section>
 
         <ProductSection />
+
+        <Testimonials />
 
         {/* Sustainability Banner */}
         <section id="sustainability" className="relative py-48 overflow-hidden">

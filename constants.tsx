@@ -53,11 +53,35 @@ export const PRODUCTS: Product[] = [
   }
 ];
 
+export const TESTIMONIALS = [
+  {
+    id: 1,
+    name: "Adrian Pratama",
+    role: "Digital Nomad",
+    quote: "Kualitas hoodie RIFZ benar-benar di luar ekspektasi. Bahan 500GSM-nya terasa sangat premium dan kokoh untuk dipakai harian.",
+    avatar: "https://i.pravatar.cc/150?u=adrian"
+  },
+  {
+    id: 2,
+    name: "Siska Wijaya",
+    role: "Architect",
+    quote: "Desain jaketnya sangat fungsional namun tetap minimalis. Sangat cocok dengan gaya hidup urban yang dinamis.",
+    avatar: "https://i.pravatar.cc/150?u=siska"
+  },
+  {
+    id: 3,
+    name: "Bimo Kusuma",
+    role: "Streetwear Enthusiast",
+    quote: "Sangat sulit menemukan brand lokal yang berani bermain dengan material high-tech seperti RIFZ. Drop 01 ini wajib dimiliki.",
+    avatar: "https://i.pravatar.cc/150?u=bimo"
+  }
+];
+
 export const NAV_LINKS = [
   { name: 'Collection', href: '#collection' },
-  { name: 'Philosophy', href: '#philosophy' },
-  { name: 'Sustainability', href: '#sustainability' },
-  { name: 'Shop All', href: '#collection' }
+  { name: 'Vision', href: '#vision' },
+  { name: 'Reviews', href: '#reviews' },
+  { name: 'Philosophy', href: '#philosophy' }
 ];
 
 export const ICONS = {
@@ -75,5 +99,8 @@ export const ICONS = {
   ),
   ChevronRight: () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+  ),
+  Quote: () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" className="opacity-10"><path d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C19.5693 16 20.017 15.5523 20.017 15V9C20.017 8.44772 19.5693 8 19.017 8H15.017C14.4647 8 14.017 8.44772 14.017 9V12C14.017 12.5523 13.5693 13 13.017 13H11.017V6H21.017V15C21.017 18.3137 18.3307 21 15.017 21H14.017ZM3.017 21L3.017 18C3.017 16.8954 3.91238 16 5.017 16H8.017C8.56928 16 9.017 15.5523 9.017 15V9C9.017 8.44772 8.56928 8 8.017 8H4.017C3.46472 8 3.017 8.44772 3.017 9V12C3.017 12.5523 2.56928 13 2.017 13H0.017V6H10.017V15C10.017 18.3137 7.33072 21 4.017 21H3.017Z"/></svg>
   )
 };
